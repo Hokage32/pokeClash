@@ -36,6 +36,7 @@ button {
   height: 300px;
   position: relative;
   padding: 5px;
+  filter: drop-shadow(3px,3px, #060606);
 }
 .charizard {
   z-index: 4;
@@ -69,9 +70,7 @@ button {
     rgba(255, 0, 0, 1) 0%,
     rgba(255, 255, 255, 1) 67%
   );
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
 }
 .auth {
   display: flex;
@@ -117,10 +116,12 @@ button {
   .blastoise {
     width: 200px;
     height: 200px;
+    filter: drop-shadow(4px 4px  #000000);
   }
   .charizard {
     width: 200px;
     height: 200px;
+    filter: drop-shadow(4px 4px #000000);
   }
 
   .search-bar {
@@ -260,9 +261,6 @@ button {
     rgba(255, 0, 0, 1) 0%,
     rgba(255, 255, 255, 1) 67%
   );
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 20px;
   padding: 25px;
 }
@@ -273,9 +271,6 @@ button {
     rgba(255, 0, 0, 1) 0%,
     rgba(255, 255, 255, 1) 67%
   );
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 20px;
   padding: 25px;
 }
@@ -286,9 +281,7 @@ button {
     rgba(255, 0, 0, 1) 0%,
     rgba(255, 255, 255, 1) 67%
   );
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ 
   border-radius: 20px;
   padding: 25px;
 }
@@ -302,10 +295,12 @@ button {
 .groudon {
   width: 300px;
   height: 300px;
+  filter: drop-shadow(3px 3px #000000);
 }
 .kyogre {
   width: 300px;
   height: 300px;
+  filter: drop-shadow(3px 3px  #000000);
 }
 
 @media screen and (max-width: 768px) {
@@ -313,8 +308,7 @@ button {
     display: flex;
     width: 100%;
   }
-  .welcomeBox {
-  }
+ 
 .poke-card {
     display: flex;
     flex-direction: column;
@@ -331,9 +325,6 @@ button {
       rgba(255, 0, 0, 1) 0%,
       rgba(255, 255, 255, 1) 67%
     );
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 20px;
     padding: 25px;
   }
